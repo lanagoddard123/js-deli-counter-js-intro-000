@@ -13,4 +13,4 @@ function nowServing(katzDeli) {
     return "The line is currently empty!";
   }
   else
-  return (`Currently serving ${katzDeli.shift()}.`);
+  return (`Currently serving ${katzDeli.shift().`);
