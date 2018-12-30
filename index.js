@@ -16,6 +16,7 @@ function nowServing(katzDeli) {
 }
 
 var line = []
+
 function currentLine(katzDeli){
   var n = 0
   while(n<katzDeli.length)
