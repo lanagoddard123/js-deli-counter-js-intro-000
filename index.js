@@ -15,9 +15,16 @@ function nowServing(katzDeli) {
   return (`Currently serving ${katzDeli.shift()}.`);
 }
 
+
 function currentLine(katzDeli){
-  return `The line is currently: (x)(x)`
+  var n = 0 
+  while(n<katzDeli.length)
+  n++
   if(katzDeli.length === 0){
-    return 'The line is currently empty'
+    return 'The line is currently empty';
   }
-}
+    else 
+    return (`The line is currently: ${n} ${katzDeli} `)
+    }
+  }
+  
